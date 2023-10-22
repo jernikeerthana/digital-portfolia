@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>HTML form example</title>
+</head>
+<body>
+    <h1> contact us </h1>
+    <form action="#" method="post">
+        Name:
+        <input type="text" id="name" name="name" required><br><br>
+
+        Email:
+        <input type="email" id="email" name="email" required><br><br>
+
+        Message:
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        male
+        <input type="radio" id="female" name="gender" value="female">
+        female <br><br>
+
+        Age:
+        <select id="age" name="age"> 
+         <option value="under18">under 18</option>
+         <option value="18to35">18to35</option>
+         <option value="over35">over35</option>
+        </select><br><br>
+         
+        subscribe to newsletter:
+         <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+         <input type="submit" value="submit">
+         <input type="reset" value="reset">
+    </form>
+</body>
+</html>
